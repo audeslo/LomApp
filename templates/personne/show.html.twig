@@ -1,0 +1,70 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Personne{% endblock %}
+
+{% block body %}
+    <h1>Personne</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ personne.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ personne.nom }}</td>
+            </tr>
+            <tr>
+                <th>Prenom</th>
+                <td>{{ personne.prenom }}</td>
+            </tr>
+            <tr>
+                <th>Datenaissance</th>
+                <td>{{ personne.datenaissance ? personne.datenaissance|date('Y-m-d') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Sexe</th>
+                <td>{{ personne.sexe }}</td>
+            </tr>
+            <tr>
+                <th>Telephone</th>
+                <td>{{ personne.telephone }}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{ personne.email }}</td>
+            </tr>
+            <tr>
+                <th>Fonction</th>
+                <td>{{ personne.fonction }}</td>
+            </tr>
+            <tr>
+                <th>Profession</th>
+                <td>{{ personne.profession }}</td>
+            </tr>
+            <tr>
+                <th>Actif</th>
+                <td>{{ personne.actif ? 'Yes' : 'No' }}</td>
+            </tr>
+            <tr>
+                <th>Slug</th>
+                <td>{{ personne.slug }}</td>
+            </tr>
+            <tr>
+                <th>CreatedOn</th>
+                <td>{{ personne.createdOn ? personne.createdOn|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+            <tr>
+                <th>EditedOn</th>
+                <td>{{ personne.editedOn ? personne.editedOn|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('personne_index') }}">back to list</a>
+
+    <a href="{{ path('personne_edit', {'id': personne.id}) }}">edit</a>
+
+    {{ include('personne/_delete_form.html.twig') }}
+{% endblock %}
