@@ -2,37 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fbe08ef-5129-4ad5-9d47-68eca4daabc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace-COT01095.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/jms_serializer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/jms_serializer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/jms_serializer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200914152204.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PersonneController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Personne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/PersonneType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/PersonneRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/personne/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/personne/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/personne/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/personne/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/personne/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/personne/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LomApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LomApp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PersonneController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PersonneController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Personne.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Personne.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -154,6 +131,9 @@
       <path value="$PROJECT_DIR$/vendor/jms/serializer" />
       <path value="$PROJECT_DIR$/vendor/jms/metadata" />
       <path value="$PROJECT_DIR$/vendor/jms/serializer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/rest-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/jsonp-callback-validator" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hTQgrpRyNzigbHInYfid8T57Dg" />
@@ -186,6 +166,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600032717056</updated>
       <workItem from="1600032719094" duration="327000" />
+      <workItem from="1600157378807" duration="9838000" />
+      <workItem from="1600243180674" duration="1925000" />
+      <workItem from="1600335587588" duration="9387000" />
     </task>
     <servers />
   </component>
@@ -204,6 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="201" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600102132867" />
+    <state x="737" y="431" key="ComposerInitDialogKey" timestamp="1600358264663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="737" y="431" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1600358264663" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600105975031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

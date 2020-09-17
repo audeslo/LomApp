@@ -7,10 +7,12 @@ use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 use Gedmo\Mapping\Annotation as Gedmo;
+//use JMS\Serializer\Annotation as Serializer;
 
 /**
  * @ORM\Entity(repositoryClass=PersonneRepository::class)
  * @ORM\HasLifecycleCallbacks()
+ *
  */
 class Personne
 {
@@ -23,9 +25,9 @@ class Personne
 
     /**
      * @var string
-     *
      * @ORM\Column(name="nom", type="string", length=255)
      * @Assert\NotBlank(message="Veuillez saisir le nom !")
+     *
      */
     private $nom;
 
@@ -34,6 +36,7 @@ class Personne
      *
      * @ORM\Column(name="prenom", type="string", length=255)
      * @Assert\NotBlank(message="Veuillez saisir le prénom!")
+     *
      */
     private $prenom;
 
