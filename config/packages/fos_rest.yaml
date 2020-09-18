@@ -1,7 +1,12 @@
 # Read the documentation: https://symfony.com/doc/master/bundles/FOSRestBundle/index.html
+sensio_framework_extra:
+    request: { converters: true }
+
 fos_rest:
     body_converter:
         enabled: true
+        validate: true
+        validation_errors_argument: violations
     view:
         formats: { json: true, xml: false, rss: false }
         view_response_listener: true
@@ -10,6 +15,7 @@ fos_rest:
     format_listener:
         rules:
           - { path: '^/', priorities: ['json'], fallback_format: 'json' }
+    param_fetcher_listener: force
 #    param_fetcher_listener:  true
 #    allowed_methods_listener:  true
 #    routing_loader: true
